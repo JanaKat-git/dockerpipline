@@ -19,5 +19,8 @@ Finally, the data is presendet on a dashboard on **metabase**.
 4. Go to the main folder of the project in the terminal and run docker-compose build && docker-compose up
 5. In your browser open ```http://localhost:3000/``` to create a metabase
 
+## License
+
+MIT License
 
 
