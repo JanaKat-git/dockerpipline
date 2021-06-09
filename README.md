@@ -4,8 +4,8 @@
 
 ## Description
 This **Dockerized** data pipeline extracts newspaper snippets  with the word 'Klimawandel' from ZEIT ONLINE as JSON files and stores them into a **MongoDB**. 
-Then, a ETL job is performed and the transformd metadata stored in a  **PostGreSQL** database. During the ETL job the sentiment of the snippest is analyzed by comparing the words to lists with positive and negative german words. 
-Finally, the data is presendet on a dashboard on **metabase**.
+Then, a ETL job is performed and the transformed metadata stored in a  **PostGreSQL** database. During the ETL job the sentiment of the snippest is analyzed by comparing the words to lists with positive and negative german words. 
+Finally, the data is presented on a dashboard on **metabase**.
 
 ***Notes***: this repo requires you to have your own API keys for ZEIT ONLINE. You'll also need to have docker up and running on your machine.
 
